@@ -6,7 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.WsFederation;
 using Owin;
 
-
+//instruct Owin which startup class to use
 
 [assembly: OwinStartupAttribute(typeof(CS_ADFS.Startup))]
 namespace CS_ADFS
