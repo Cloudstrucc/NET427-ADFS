@@ -13,7 +13,7 @@ namespace CS_ADFS
 {
     public partial class Startup
     {
-        public void ConfigureAuth1(IAppBuilder app)
+        public void Configuration(IAppBuilder app)
 
         {
 
