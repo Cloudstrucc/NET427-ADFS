@@ -23,6 +23,7 @@ namespace CS_ADFS
             {
 
                 AuthenticationType = WsFederationAuthenticationDefaults.AuthenticationType
+               
 
             });
 
@@ -31,10 +32,13 @@ namespace CS_ADFS
             new WsFederationAuthenticationOptions
 
             {
+                
 
                 MetadataAddress = ConfigurationManager.AppSettings["ida:ADFSMetadata"],
 
                 Wtrealm = ConfigurationManager.AppSettings["ida:Wtrealm"]
+                
+                
 
             });
 
