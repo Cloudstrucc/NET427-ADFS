@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace CNSC_ADFS
+namespace CS_ADFS
 {
     public class MvcApplication : System.Web.HttpApplication
     {

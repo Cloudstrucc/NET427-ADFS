@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using CNSC_ADFS.Models;
+using CS_ADFS.Models;
 
-namespace CNSC_ADFS
+namespace CS_ADFS
 {
     public class EmailService : IIdentityMessageService
     {

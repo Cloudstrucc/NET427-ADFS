@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace CNSC_ADFS.Models
+namespace CS_ADFS.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

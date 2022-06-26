@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace CNSC_ADFS
+namespace CS_ADFS
 {
     public class BundleConfig
     {

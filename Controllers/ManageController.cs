@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using CNSC_ADFS.Models;
+using CS_ADFS.Models;
 
-namespace CNSC_ADFS.Controllers
+namespace CS_ADFS.Controllers
 {
     [Authorize]
     public class ManageController : Controller
